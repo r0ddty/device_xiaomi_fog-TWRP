@@ -95,6 +95,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CONFIG := vendor/fog-perf_defconfig
 TARGET_KERNEL_HEADERS := kernel/xiaomi/fog
 TARGET_KERNEL_SOURCE := kernel/xiaomi/fog
+BOARD_RAMDISK_USE_LZ4 := true
 
 # Metadata
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := false

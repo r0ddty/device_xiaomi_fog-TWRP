@@ -1,2 +1,2 @@
 # Clone kernel tree
-git clone --depth=1 https://github.com/alternoegraha/kernel_xiaomi_fog_14 kernel/xiaomi/fog
+git clone --depth=1 -b erofs https://github.com/r0ddty/kernel_xiaomi_fog kernel/xiaomi/fog
